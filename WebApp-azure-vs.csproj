@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>WebApp_azure_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/6b043ef5-c70b-41fa-91e6-532e475d9dbf/resourceGroups/WebAppFromGithub/providers/microsoft.insights/components/WebAppFromGithub</ApplicationInsightsResourceId>
+    <UserSecretsId>446fe0b7-5c95-4db7-8aa9-e9ff49344016</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
